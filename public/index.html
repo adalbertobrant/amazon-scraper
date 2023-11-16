@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Web Scraper</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Web Scraper</h1>
+        <form id="scraper-form">
+            <div class="mb-3">
+                <label for="asin" class="form-label">ASIN</label>
+                <input type="text" class="form-control" id="asin">
+            </div>
+            <div class="mb-3">
+                <label for="keyword" class="form-label">Keyword</label>
+                <input type="text" class="form-control" id="keyword">
+            </div>
+            <button type="submit" class="btn btn-primary">Scrape</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
+
